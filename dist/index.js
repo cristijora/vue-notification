@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["vue"], factory);
 	else if(typeof exports === 'object')
-		exports["vue-notification"] = factory(require("vue"));
+		exports["VueNotification"] = factory(require("vue"));
 	else
-		root["vue-notification"] = factory(root["vue"]);
+		root["VueNotification"] = factory(root["vue"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
